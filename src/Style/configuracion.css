@@ -1,0 +1,35 @@
+[data-theme="compact"] p, p {
+    margin: 0;
+  }
+  .config-collapse{
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+  }
+  
+  .config-collapse .title-config{
+    padding-top: 1rem;
+    width: 97%;
+    margin: 0 auto;
+  }
+  .config-collapse .fa-screwdriver-wrench{
+    font-size: 1.3rem;
+  
+  text-transform: capitalize;
+  padding-right: 5px;
+  color: rgb(55, 138, 182);
+  }
+  .config-collapse .title-config span{
+    font-size: 1.3rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-family: 'Inter', sans-serif;
+  color: rgb(55, 138, 182);
+  }
+
+
+.config-collapse .config-content{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 1.3rem;
+}

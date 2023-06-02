@@ -1,0 +1,109 @@
+.form-create{
+    width: 100%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(134,37,38,1) 0%, rgba(164,31,31,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form-create .form-create-contents{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.form-create .form-create-contents .form-create-content{
+    width: 100%;
+    display: flex;
+}
+
+.form-create .form-create-contents .form-create-content .form-input{
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.8rem;
+    
+}
+
+.form-create .form-create-contents .form-create-content .form-input.email{
+    padding-bottom: 1rem;
+}
+
+.form-create .form-create-contents .form-create-content .form-input span{
+    color: rgb(244, 239, 239);
+    font-size: 12.7px;
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.7px;
+    font-family: 'Inter', sans-serif;
+}
+
+.form-input span::before {
+    display: inline;
+    content: "⚠ ";
+  }
+
+.form-create .form-create-contents .form-create-content .form-input label{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.7px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 7px;
+    margin-left: 16px;
+}
+
+.form-create .form-create-contents .form-create-content .form-input input{
+    width: 14rem;
+    height: 2rem;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.75);
+    padding-left: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.form-create .form-create-contents .form-create-content .form-input button{
+    background-color: #971a1a;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1.4px;
+    border: none;
+    border-radius: 3px;
+    width: 8rem;
+    height: 2.5rem;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.75);
+    transition: background-color 0.3s linear;
+}
+
+.form-create .form-create-contents .form-create-content .form-input button:active{
+    background-color: #da4d4d;
+}
+
+.form-create .form-create-contents .form-create-content .form-input button:hover{
+    background-color: #ab1818;
+}
+
+.form-create .form-create-contents .form-create-content .form-input i{
+    padding-right:5px ;
+}

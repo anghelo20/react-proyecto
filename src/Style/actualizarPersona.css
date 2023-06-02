@@ -1,0 +1,134 @@
+.modal-content-person {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(134, 37, 38, 1) 0%,
+    rgba(164, 31, 31, 1) 100%
+  );
+  position: absolute;
+  width: 37rem;
+  border-radius: 5px;
+  padding-bottom: 1rem;
+  z-index: 2;
+  box-shadow: 1px 3px 6px 3px rgba(0, 0, 0, 0.75);
+}
+.update-card {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.update-card .header {
+  padding-top: 0.2rem;
+  padding-right: 0.5rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.update-card .header h2 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.7px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.update-card .header i {
+  font-size: 1.4rem;
+}
+
+.update-card .header i:hover {
+  color: rgb(190, 185, 185);
+}
+
+.update-card .content {
+  width: 32rem;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.update-card .content .update-input {
+  display: flex;
+  flex-direction: column;
+  width: 14rem;
+}
+
+.update-card .content .update-input.email {
+  width: 100%;
+}
+
+.update-card .content .update-input label {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.7px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 8px;
+}
+
+.update-card .content .update-input input {
+  outline: none;
+  border: none;
+  width: 14rem;
+  height: 2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  padding-left: 5px;
+  border-radius: 3px;
+  box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.update-card .content .update-input input[type="email"] {
+  width: 100%;
+}
+
+.update-card .content .update-input span {
+  color: rgb(244, 239, 239);
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.7px;
+  font-family: "Inter", sans-serif;
+  margin-top: 8px;
+}
+
+.update-card .content .update-input span::before{
+  display: inline;
+    content: "⚠ ";
+}
+
+.update-card .content button {
+  background-color: #971a1a;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: 1.4px;
+  border: none;
+  border-radius: 3px;
+  margin: 0 auto;
+  margin-top: 1px;
+  width: 10rem;
+  height: 2.9rem;
+  font-family: "Inter", sans-serif;
+  box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.75);
+  transition: background-color 0.3s linear;
+}
+
+.update-card .content button:hover {
+  background-color: #ab1818;
+}

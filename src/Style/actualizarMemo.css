@@ -1,0 +1,118 @@
+.modal-content-memo{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(134,37,38,1) 0%, rgba(164,31,31,1) 100%);
+    position: absolute;
+    width: 40rem;
+    border-radius: 5px;
+    z-index: 2;
+    box-shadow: 1px 3px 6px 3px rgba(0,0,0,0.75);
+    
+  }
+.card-update-memo{
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.card-update-memo .update-memo-header{
+    margin-bottom: 5px;
+}
+
+.card-update-memo .update-memo-header h2{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.4rem;
+}
+
+.card-update-memo .card-update-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.card-update-memo .card-update-content .card-input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.card-update-memo .card-update-content .card-input input{
+    outline: none;
+    border: none;
+    width: 22rem;
+    height: 1.8rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    padding-left: 5px;
+    border-radius: 3px;
+    box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.75);
+}
+
+.card-update-memo .card-update-content span{
+    color: rgb(244, 239, 239);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding-top: 5px;
+}
+
+.card-update-memo .card-update-content span::before{
+    display: inline;
+    content: "⚠ ";
+}
+
+.card-update-memo .card-update-content textarea{
+    resize: none;
+    outline: none;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding-left: 5px;
+    border-radius: 3px;
+    width: 100%;
+    height: 18rem;
+    overflow-y: scroll;
+}
+
+.card-update-memo .card-update-buttons{ 
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.card-update-memo .card-update-buttons button{
+    background-color: #971a1a;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 3px;
+    width: 9rem;
+    height: 2.5rem;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.75);
+}
+
+.card-update-memo .card-update-buttons button:hover{
+    background-color: #ab1818;
+}
+
+.card-update-memo .card-update-buttons button:active{
+    background-color: #e02020;}

@@ -1,0 +1,291 @@
+.filtering-content {
+  background-color: rgb(252, 252, 252);
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.filtering-content .title-statics{
+  padding-top: 1rem;
+  width: 97%;
+  margin: 0 auto;
+}
+.filtering-content .fas.fa-chart-bar{
+  font-size: 1.3rem;
+
+text-transform: capitalize;
+padding-right: 5px;
+color: rgb(55, 138, 182);
+}
+.filtering-content .title-statics span{
+  font-size: 1.3rem;
+font-weight: 500;
+text-transform: capitalize;
+letter-spacing: 1px;
+font-family: 'Inter', sans-serif;
+color: rgb(55, 138, 182);
+}
+
+.filtering-content .filter-content {
+  width: 95%;
+  
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.filtering-content .filter-content .filter-search{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.filtering-content .filter-content .btn-send {
+  outline: none;
+  border: none;
+  background-color: #ab1a1a;
+  border-radius: 5px;
+  width: 10rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  color: #e8e2e2;
+  text-transform: capitalize;
+  letter-spacing: 0.8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin: 1rem 0;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.filtering-content .filter-content .form-filter {
+  position: relative;
+  display: flex;
+  width: 40%;
+  height: 16rem;
+  background-color: rgb(209, 205, 205);
+  box-shadow: 2px 2px 4px 1px rgba(86, 84, 84, 0.75);
+}
+
+.filtering-content .filter-content .form-filter .filter-sub {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.filtering-content .filter-content .form-filter .filter-sub .filter-sub-select {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 1rem;
+  
+}
+.filtering-content .filter-content .form-filter .filter-sub .filter-sub-select.btn {
+  align-self: center;
+}
+
+.ant-picker.datepicker span::before {
+  display: inline;
+  content: "";
+}
+
+.ant-picker.ant-picker-range span::before {
+  display: inline;
+  content: "";
+}
+
+.filtering-content .filter-content .form-filter .filter-sub .filter-sub-select .select-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.filtering-content .filter-content .form-filter .filter-sub .filter-sub-select .select-content label{
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 0.12rem;
+  font-weight: 500;
+}
+
+
+
+  .filtering-content .filter-content .form-filter .filter-sub .filter-date{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+
+.filtering-content .filter-content .form-filter .filter-sub .filter-date .select-date{
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 1rem;
+}
+
+
+.filtering-content .filter-content .form-filter .filter-sub .filter-date .select-date select{
+  width: 9rem;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+.filtering-content .filter-content .form-filter .filter-sub .filter-date .select-date label{
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 0.12rem;
+  font-weight: 500;
+}
+
+.filtering-content .filter-content .form-filter .filter-type .search-btn {
+  outline: none;
+  border: none;
+  background-color: #ab1a1a;
+  border-radius: 5px;
+  width: 8rem;
+  height: 2.3rem;
+  font-size: 1rem;
+  color: #e8e2e2;
+  text-transform: capitalize;
+  letter-spacing: 0.8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.filtering-content .filter-content .form-filter .filter-type .search-btn i{
+  padding-right: 0.4rem;
+}
+
+.filtering-content .filter-content .form-filter .filter-sub input {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 2rem;
+  font-size: 0.9rem;
+  color: rgb(89, 84, 84);
+  text-transform: capitalize;
+  letter-spacing: 0.2px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.filtering-content .filter-content .form-filter .filter-sub select,
+input {
+  padding-left: 10px;
+}
+
+.filtering-content .filter-content .select-data {
+  background-color: #ab1a1a;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 7rem;
+  height: 2.3rem;
+  font-size: 1rem;
+  color: #e8e2e2;
+    text-transform: capitalize;
+  letter-spacing: 0.8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.ant-select-selector::placeholder{
+  font-size: 1rem;
+}
+
+.ant-select-selector{
+  background-color: #ab1a1a !important;
+  cursor: pointer;
+  border-radius: 5px !important;
+  padding: 0 1rem!important ;
+  width: 10rem !important;
+  height: 2.1rem !important;
+  font-size: 1rem;
+  color: white!important;
+  letter-spacing: 0.81px ;
+  font-family: "Inter", sans-serif !important;
+  font-weight: 500;
+  border: none;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.ant-form-item-explain-error{
+  color: rgb(221, 23, 23);
+  font-size: 0.9rem;
+  letter-spacing: 0.81px ;
+  font-family: "Inter", sans-serif ;
+  font-weight: 600;
+}
+
+.ant-select-selector span{
+  display: inline;
+    content: "";
+}
+
+.ant-select-selector .ant-select-selection-item::before{
+  display: inline;
+    content: "";
+}
+
+.ant-select-selector .ant-select-selection-item span::before{
+  display: inline;
+    content: "";
+}
+
+.ant-select-selector .ant-select-selection-placeholder{
+  color: #e8e2e2;
+}
+
+.ant-select-selector .ant-select-selection-placeholder{
+  color: #e8e2e2;
+}
+
+.ant-select .ant-select-arrow{
+  color: #e8e2e2;
+
+}
+
+.filtering-content .filter-content .form-filter  option {
+  background-color: white;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+
+.filtering-content .filter-content .filter-table {
+  margin-top: 25px;
+  padding-top: 0.5rem;
+  border-radius: 5px;
+  
+}
+
+.ant-table-thead .ant-table-cell {  
+  font-size: 0.85 rem;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+}
+
+.empty{
+  color: #2f6da7;
+  font-size: 0.85 rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+  padding: 1rem 0;
+  margin-top: 5rem;
+}
+
+.table-report{
+  box-shadow: 2px 2px 4px 1px rgba(86, 84, 84, 0.75);
+  font-size: 1px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.1px;
+  padding: 0 0.6rem;
+  padding-top: 0.5rem;
+  border-radius: 5px;
+}
+

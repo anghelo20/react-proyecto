@@ -1,0 +1,68 @@
+.memo-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(252, 252, 252);
+  overflow-y: scroll;
+}
+
+.memo-main .title-memo{
+  padding-top: 1rem;
+  width: 97%;
+  margin: 0 auto;
+}
+.memo-main .fa-file{
+  font-size: 1.3rem;
+
+text-transform: capitalize;
+padding-right: 5px;
+color: rgb(55, 138, 182);
+}
+.memo-main span{
+  font-size: 1.3rem;
+font-weight: 500;
+text-transform: capitalize;
+letter-spacing: 1px;
+font-family: 'Inter', sans-serif;
+color: rgb(55, 138, 182);
+}
+
+.memo-main .memo-cards {  
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  transition: 1s ease 2s;
+}
+
+.memo-main .memo-cards .memo-card {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.memo-main .memo-cards .memo-card .memo-card-search {
+  width: 34rem;
+  height: 21rem;
+  margin-top: 2rem;
+}
+
+.memo-main .memo-cards{
+  transition: 1s ease;
+}
+
+.memo-main .memo-cards .memo-card .memo-card-show{
+  width: 34rem;
+  height: 19rem;
+}
+
+.memo-main .memo-cards .memo-card-description{
+  display: block;
+  opacity: 1;
+}
+
+.memo-main .memo-cards .memo-card-description.hide{
+  display: none;
+  opacity: 0;
+}

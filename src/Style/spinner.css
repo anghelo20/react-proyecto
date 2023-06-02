@@ -1,0 +1,39 @@
+@keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .loading-update h3{
+    color: white;
+  }
+  .loading-spinner {
+    width: 5.6rem;
+    height: 5.6rem;
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top: 7px solid #971a1a; /* Blue */
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite;
+    z-index: 2;
+  }
+  
+  .spinner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+  }
+
+  .spinner-container h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: 0.9px;
+    margin-top: 25px;
+    z-index: 2;
+
+  }

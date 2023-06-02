@@ -1,0 +1,120 @@
+.modal-content{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(134,37,38,1) 0%, rgba(164,31,31,1) 100%);
+    position: absolute;
+    width: 40rem;
+    border-radius: 5px;
+    padding-bottom: 1rem;
+    z-index: 2;
+    box-shadow: 1px 3px 6px 3px rgba(0,0,0,0.75);
+    
+  }
+.update-email-card{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.update-email-card .update-email-header h2{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.4rem;
+}
+
+.update-email-card .update-email-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.update-email-card .update-email-content .area-update-email{
+    width: 100%;
+    padding-top: 10px;
+}
+
+.update-email-card .update-email-content .area-update-email span{
+    color: rgb(244, 239, 239);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    padding-top: 5px;
+}
+
+.update-email-card .update-email-content .area-update-email span::before{
+    display: inline;
+    content: "⚠ ";
+}
+
+.update-email-card .update-email-content .area-update-email .subject-update-email{
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.update-email-card .update-email-content .area-update-email input{
+    outline: none;
+    border: none;
+    width: 22rem;
+    height: 1.8rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    padding-left: 5px;
+    border-radius: 3px;
+    box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.75);
+
+}
+
+.update-email-card .update-email-content .area-update-email textarea{
+    resize: none;
+    outline: none;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding-left: 5px;
+    border-radius: 3px;
+    width: 100%;
+    height: 18rem;
+    overflow-y: scroll;
+}
+.update-email-card .update-email-content .buttons{ 
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    width: 60%;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.update-email-card .update-email-content .buttons button{
+    background-color: #971a1a;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 3px;
+    width: 9rem;
+    height: 2.5rem;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.75);
+}
+
+.update-email-card .update-email-content .buttons button:hover{
+    background-color: #ab1818;
+}
+
+.update-email-card .update-email-content .buttons button:active{
+    background-color: #e02020;}
